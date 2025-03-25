@@ -46,7 +46,7 @@ const columns = [
   {
     title: '操作',
     key: 'action',
-    render: (_, record) => (
+    render: (_:any, record:any) => (
       <span>
         <Button type="link" >
           详情
